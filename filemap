@@ -1,3 +1,4 @@
 aliases.sh /aliases.sh
 vscode-keybindings.json /.config/Code/User/keybindings.json
 vscode-settings.json /.config/Code/User/settings.json
+vscode-js-snippets.json /.config/Code/User/snippets/javascript.json
