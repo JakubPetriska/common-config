@@ -1,11 +1,12 @@
 #!/bin/bash
 
+alias la='ls -la'
 alias gs='git status'
 alias gd='git diff'
 alias gc='git commit'
 alias gl='git log --oneline | head -n'
 alias gf='git fetch'
-alias la='ls -la'
+alias gp='git pull'
 
 print_last_branch_commit () {
   if git checkout $1 -q; then
